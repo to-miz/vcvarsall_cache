@@ -18,4 +18,4 @@ This will have a similar effect to calling `vcvarsall x64`.
 ## Why
 Sometimes it is necessary to call vcvarsall in scripts which then get called repeatedly.
 One issue with this is that vcvarsall will do various things like crawling through the registry to set environment variables, which is very slow.
-This in turn bottlenecks anything that calls vcvarsall repeatedly. Using a batch file that caches the results of vcvarsall can aleviate this problem, but requires manual re-generation of the cache everytime the Visual Studio installation changes.
+This in turn bottlenecks anything that calls vcvarsall repeatedly. Using a batch file that caches the results of vcvarsall can alleviate this problem, but requires manual re-generation of the cache everytime the Visual Studio installation changes.
